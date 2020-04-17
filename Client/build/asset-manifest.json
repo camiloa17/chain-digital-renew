@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/static/css/main.8ebc652a.chunk.css",
+    "main.js": "/static/js/main.a9994cf5.chunk.js",
+    "main.js.map": "/static/js/main.a9994cf5.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.6bd5ab42.js",
+    "runtime-main.js.map": "/static/js/runtime-main.6bd5ab42.js.map",
+    "static/js/2.fd2c2c05.chunk.js": "/static/js/2.fd2c2c05.chunk.js",
+    "static/js/2.fd2c2c05.chunk.js.map": "/static/js/2.fd2c2c05.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.c09747f14f415198f63ef816f2a611b4.js": "/precache-manifest.c09747f14f415198f63ef816f2a611b4.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.8ebc652a.chunk.css.map": "/static/css/main.8ebc652a.chunk.css.map",
+    "static/js/2.fd2c2c05.chunk.js.LICENSE.txt": "/static/js/2.fd2c2c05.chunk.js.LICENSE.txt",
+    "static/media/UpperSection.module.css": "/static/media/Hero-image.14c75afa.jpg",
+    "static/media/Icon-website.svg": "/static/media/Icon-website.544af3e7.svg",
+    "static/media/Linkedin-2.svg": "/static/media/Linkedin-2.5d6c2733.svg",
+    "static/media/Linkedin.svg": "/static/media/Linkedin.e7efc288.svg",
+    "static/media/index.css": "/static/media/Roboto-Regular.11eabca2.ttf",
+    "static/media/Prototype MIT-first.gif": "/static/media/Prototype MIT-first.021c19fb.gif",
+    "static/media/Qroom.mp4": "/static/media/Qroom.4c614985.mp4",
+    "static/media/Theorem.mp4": "/static/media/Theorem.521585f0.mp4",
+    "static/media/facebook.svg": "/static/media/facebook.0da25dfb.svg",
+    "static/media/whatsapp.svg": "/static/media/whatsapp.ab1403bf.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.6bd5ab42.js",
+    "static/js/2.fd2c2c05.chunk.js",
+    "static/css/main.8ebc652a.chunk.css",
+    "static/js/main.a9994cf5.chunk.js"
+  ]
+}
