@@ -2,9 +2,9 @@
     "name": "server-chain",
     "version": "0.1.0",
     "scripts": {
-        "client":"cd-chain-digital && npm start",
-        "server":"cd server && nodemon node.js",
-        "dev":"concurrently --kill-others-on-fail \"npm server\" \"npm client\" "
+        "client": "cd-chain-digital && npm start",
+        "server": "cd server && nodemon node.js",
+        "dev": "concurrently --kill-others-on-fail \"npm server\" \"npm client\" "
     },
     "private": true,
     "dependencies": {
