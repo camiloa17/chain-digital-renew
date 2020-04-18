@@ -25,6 +25,10 @@ app.get('/',(req,res)=>{
     res.sendFile(`${__dirname}/Client/build/index.html`)
 });
 
+app.get('*',(res,req)=>{
+    res.redirect('/');
+})
+
 const port = process.env.PORT||4000;
 
 app.listen(port,()=>{
