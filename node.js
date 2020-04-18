@@ -25,7 +25,7 @@ app.get('/',(req,res)=>{
     res.sendFile(`${__dirname}/Client/build/index.html`)
 });
 
-app.get('*',(res,req)=>{
+app.get('*',(req,res)=>{
     res.redirect('/');
 })
 
