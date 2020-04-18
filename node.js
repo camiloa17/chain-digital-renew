@@ -21,11 +21,12 @@ app.post('/api/mail',async (req,res)=>{
     }
 });
 app.use(express.static(`${__dirname}/Client/build`));
-app.get('*',(req,res)=>{
+app.get('/',(req,res)=>{
     res.sendFile(`${__dirname}/Client/build/index.html`)
-})
+});
 
+const port = process.env.PORT||4000;
 
-app.listen(4000,()=>{
-    console.log('server started on port 4000');
+app.listen(port,()=>{
+    console.log(`server started on ${port}`);
 });
