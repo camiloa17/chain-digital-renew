@@ -24,7 +24,7 @@ app.post('/api/mail',async (req,res)=>{
 
 app.use((req, res, next) => {
     if (process.env.NODE_ENV === 'production') {
-        if (req.headers.host === 'https://chain-marketing.herokuapp.com/'){
+        if (req.headers.host === 'chain-marketing.herokuapp.com/'){
             return res.redirect(302, 'https://www.chaindigital.online');
         }
         if (req.headers['x-forwarded-proto'] !== 'https'){
