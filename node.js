@@ -20,6 +20,7 @@ app.post('/api/mail',async (req,res)=>{
         console.log(error)
     }
 });
+
 app.use(express.static(`${__dirname}/Client/build`));
 
 if (process.env.NODE_ENV === 'production') {
