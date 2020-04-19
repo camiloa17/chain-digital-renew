@@ -24,10 +24,16 @@ app.post('/api/mail',async (req,res)=>{
 
 app.use((req, res, next) => {
     if (process.env.NODE_ENV === 'production') {
-        if (req.headers.host === 'https://chain-marketing.herokuapp.com/')
+        if (req.headers.host === 'https://chain-marketing.herokuapp.com/'){
             return res.redirect(301, 'https://www.chaindigital.online');
-        if (req.headers['x-forwarded-proto'] !== 'https')
-            return res.redirect('https://' + req.headers.host + req.url);
+        }
+        if (req.headers['x-forwarded-proto'] !== 'https'){
+            return res.redirect(301,'https://www.chaindigital.online');
+        }
+            
+        if (req.headers.host !== 'https://www.chaindigital.online'){
+            return res.redirect(301, 'https://www.chaindigital.online');
+        }   
         else
             return next();
     } else
@@ -42,6 +48,7 @@ app.get('/',(req,res)=>{
     res.sendFile(`${__dirname}/Client/build/index.html`)
 });
 
+app.get('/')
 
 
 const port = process.env.PORT||4000;
