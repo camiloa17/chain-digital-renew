@@ -21,16 +21,23 @@ app.post('/api/mail',async (req,res)=>{
     }
 });
 
+
+app.use((req, res, next) => {
+    if (process.env.NODE_ENV === 'production') {
+        if (req.headers.host === 'https://chain-marketing.herokuapp.com/')
+            return res.redirect(301, 'https://www.chaindigital.online');
+        if (req.headers['x-forwarded-proto'] !== 'https')
+            return res.redirect('https://' + req.headers.host + req.url);
+        else
+            return next();
+    } else
+        return next();
+});
+
+
 app.use(express.static(`${__dirname}/Client/build`));
 
-if (process.env.NODE_ENV === 'production') {
-    app.use('*',(req, res, next) => {
-        if (req.header('X-Forwarded-Proto') !== 'https')
-            res.redirect(302,`https://${req.header('host')}${req.url}`)
-        else
-            next()
-    })
-}
+
 app.get('/',(req,res)=>{
     res.sendFile(`${__dirname}/Client/build/index.html`)
 });
