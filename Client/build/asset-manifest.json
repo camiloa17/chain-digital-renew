@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.9df92559.chunk.css",
-    "main.js": "/static/js/main.c778eb9b.chunk.js",
-    "main.js.map": "/static/js/main.c778eb9b.chunk.js.map",
+    "main.css": "/static/css/main.ae77161d.chunk.css",
+    "main.js": "/static/js/main.36cc4573.chunk.js",
+    "main.js.map": "/static/js/main.36cc4573.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.6bd5ab42.js",
     "runtime-main.js.map": "/static/js/runtime-main.6bd5ab42.js.map",
-    "static/js/2.5dce095b.chunk.js": "/static/js/2.5dce095b.chunk.js",
-    "static/js/2.5dce095b.chunk.js.map": "/static/js/2.5dce095b.chunk.js.map",
+    "static/js/2.819d2198.chunk.js": "/static/js/2.819d2198.chunk.js",
+    "static/js/2.819d2198.chunk.js.map": "/static/js/2.819d2198.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.3e753ba59273c7820e543b715666bbe7.js": "/precache-manifest.3e753ba59273c7820e543b715666bbe7.js",
+    "precache-manifest.af2788933342b1c55fd5fa0f754cfd9f.js": "/precache-manifest.af2788933342b1c55fd5fa0f754cfd9f.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.9df92559.chunk.css.map": "/static/css/main.9df92559.chunk.css.map",
-    "static/js/2.5dce095b.chunk.js.LICENSE.txt": "/static/js/2.5dce095b.chunk.js.LICENSE.txt",
+    "static/css/main.ae77161d.chunk.css.map": "/static/css/main.ae77161d.chunk.css.map",
+    "static/js/2.819d2198.chunk.js.LICENSE.txt": "/static/js/2.819d2198.chunk.js.LICENSE.txt",
     "static/media/UpperSection.module.css": "/static/media/Hero-image.a8916789.jpg",
     "static/media/Icon-website.svg": "/static/media/Icon-website.544af3e7.svg",
     "static/media/Linkedin-2.svg": "/static/media/Linkedin-2.5d6c2733.svg",
@@ -20,13 +20,21 @@
     "static/media/Prototype MIT-first.gif": "/static/media/Prototype MIT-first.021c19fb.gif",
     "static/media/Qroom.mp4": "/static/media/Qroom.4c614985.mp4",
     "static/media/Theorem.mp4": "/static/media/Theorem.a12e4c0f.mp4",
+    "static/media/analysis.svg": "/static/media/analysis.690dfb7c.svg",
+    "static/media/data_illustration.svg": "/static/media/data_illustration.50b3948c.svg",
+    "static/media/design.svg": "/static/media/design.5227b648.svg",
+    "static/media/design_illustration.svg": "/static/media/design_illustration.5af0ecd1.svg",
+    "static/media/develop.svg": "/static/media/develop.277bd137.svg",
+    "static/media/develop_illustration.svg": "/static/media/develop_illustration.6c97b770.svg",
     "static/media/facebook.svg": "/static/media/facebook.0da25dfb.svg",
+    "static/media/marketing.svg": "/static/media/marketing.a02d91cd.svg",
+    "static/media/marketing_illustration.svg": "/static/media/marketing_illustration.26565722.svg",
     "static/media/whatsapp.svg": "/static/media/whatsapp.ab1403bf.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.6bd5ab42.js",
-    "static/js/2.5dce095b.chunk.js",
-    "static/css/main.9df92559.chunk.css",
-    "static/js/main.c778eb9b.chunk.js"
+    "static/js/2.819d2198.chunk.js",
+    "static/css/main.ae77161d.chunk.css",
+    "static/js/main.36cc4573.chunk.js"
   ]
 }

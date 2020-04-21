@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="475.144" height="466.218" viewBox="0 0 475.144 466.218">
+  <g id="Group_30" data-name="Group 30" transform="translate(6433 7187)">
+    <ellipse id="Ellipse_18" data-name="Ellipse 18" cx="149.5" cy="149" rx="149.5" ry="149" transform="translate(-6394 -7148)" fill="#d3dac6"/>
+    <g id="Group_27" data-name="Group 27">
+      <path id="Path_341" data-name="Path 341" d="M-6408.7-7019.415h82.055l74.979,76.067,199.06-205.008h84.751" fill="none" stroke="#edac17" stroke-linecap="round" stroke-width="20"/>
+      <g id="Ellipse_13" data-name="Ellipse 13" transform="translate(-6357 -7050)" fill="#d3dac6" stroke="#666665" stroke-width="13">
+        <circle cx="29" cy="29" r="29" stroke="none"/>
+        <circle cx="29" cy="29" r="22.5" fill="none"/>
+      </g>
+      <g id="Ellipse_14" data-name="Ellipse 14" transform="translate(-6282 -6975)" fill="#d3dac6" stroke="#666665" stroke-width="13">
+        <circle cx="29" cy="29" r="29" stroke="none"/>
+        <circle cx="29" cy="29" r="22.5" fill="none"/>
+      </g>
+      <g id="Ellipse_15" data-name="Ellipse 15" transform="translate(-6188 -7066)" fill="#d3dac6" stroke="#666665" stroke-width="13">
+        <circle cx="29" cy="29" r="29" stroke="none"/>
+        <circle cx="29" cy="29" r="22.5" fill="none"/>
+      </g>
+      <g id="Ellipse_16" data-name="Ellipse 16" transform="translate(-6085 -7173)" fill="#d3dac6" stroke="#666665" stroke-width="13">
+        <circle cx="29" cy="29" r="29" stroke="none"/>
+        <circle cx="29" cy="29" r="22.5" fill="none"/>
+      </g>
+    </g>
+    <path id="Subtraction_3" data-name="Subtraction 3" d="M188.5,376a190.378,190.378,0,0,1-37.989-3.819,187.986,187.986,0,0,1,0-368.361,190.833,190.833,0,0,1,75.979,0,187.986,187.986,0,0,1,0,368.361A190.379,190.379,0,0,1,188.5,376Zm0-337a151.091,151.091,0,0,0-30.129,3.027,148.981,148.981,0,0,0,0,291.946,151.455,151.455,0,0,0,60.259,0,148.981,148.981,0,0,0,0-291.946A151.093,151.093,0,0,0,188.5,39Z" transform="translate(-6433 -7187)" fill="#666665"/>
+    <g id="Group_28" data-name="Group 28" transform="translate(3045.048 -6283.25) rotate(-45)">
+      <rect id="Rectangle_43" data-name="Rectangle 43" width="68" height="205" rx="34" transform="translate(-6096.06 -6919.824)" fill="#666665"/>
+      <rect id="Rectangle_44" data-name="Rectangle 44" width="68" height="57" transform="translate(-6096 -6884)" fill="#3d574a"/>
+    </g>
+  </g>
+</svg>
